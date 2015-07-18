@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        none
+
+# Setup
+title:            Rajika's Adventures
+tagline:          'yo !'
+description:      'Full stack hacker exploring the web !'
+url:              http://xoRajika.github.io/
+baseurl:          '/'
+paginate:         5
+timezone:         Australia/Brisbane
+
+author:
+  name:           'Rajika Imal'
+  url:            https://twitter.com/xoRajika
+
+# Custom vars
+version:          0.0.5
+
+github:
+  repo:           https://github.com/xoRajika/xoRajika.github.io
