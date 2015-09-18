@@ -12,6 +12,8 @@ Usually JavaScript can do one thing at a time or else AKA the blocking model. Bl
 
 Synchronous code
 
+{% highlight php startinline %}
+
 function volume(l,b,h){
    return (h*area(b,l));
 }
@@ -19,13 +21,21 @@ function area(b,l){
    return (b*l);
 }
 console.log('Done');
+
+{% endhighlight %}
+
 Asynchronous code
 
 Most common Async thingy that we’re using is setTimeout which is given to you by WebAPI s contained in the browser itself.
 
+{% highlight php startinline %}
+
 setTimeout(function(){
    console.log('Done');
 },5000);
+
+{% endhighlight %}
+
 Asynchronous model uses the mythical Event Loop. Event loop doesn’t solve this async mystery by itself, the call stack , web APIs , and the event queue together with the event loop makes a great combo to make Async code a reality in our browsers and at the same time making things weird
 
 JavaScript is sweet ! or some might say it’s weird, either way it’s future is so bright and don’t hesitate to try it if you are a newbie to web development
